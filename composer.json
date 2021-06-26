@@ -1,0 +1,31 @@
+{
+    "name": "xrely/xrely-php",
+    "description": "client library for xrely platform. For more information please visit https://www.xrely.com",
+    "keywords": ["Web search intelligence","Autocrawl search","Intelligent search engine","install site search","Autocomplete search solution","Autocrawl Search","Search discovery"],
+    "homepage": "https://www.xrely.com",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "team xrely",
+            "homepage": "https://www.xrely.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~2.12"
+    },
+    "autoload": {
+        "psr-4": { "Xrely\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Xrely\\Client\\" : "test/" }
+    }
+}
