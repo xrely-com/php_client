@@ -109,6 +109,6 @@ Class | Method | HTTP request | Description
 
 ## Author
 
-contact@xrely.com
+info@xrely.com
 
 
